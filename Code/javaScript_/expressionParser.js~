@@ -1,0 +1,117 @@
+cnst = function(a) {
+    return function(x, y, z) {
+      return a;
+    }
+}
+
+function variable(a) {
+    return function(x, y, z) {
+	if (a == "x") {
+            return x;
+	}
+	if (a == "y") {
+            return y;
+	}
+	if (a == "z") {
+            return z;
+	}
+    }
+}
+
+function add(a, b) {
+    return function(x, y, z) {
+        return a(x, y, z) + b(x, y, z);
+    }
+}
+
+function substract(a, b) {
+    return function(x, y, z) {
+        return a(x, y, z) - b(x, y, z);
+    }
+}
+function multiply(a, b) {
+    return function(x, y, z) {
+        return a(x, y, z) * b(x, y, z);
+    }
+}
+function divide(a, b) {
+    return function(x, y, z) {
+        return a(x, y, z) / b(x, y, z);
+    }
+}
+function abs(a) {
+    return function(x, y, z) {
+        return Math.abs(a(x, y, z));
+    }
+}
+
+function log(a) {
+    return function(x, y, z) {
+        return Math.floor(Math.log(a(x, y, z)) / Math.log(2));
+    }
+}
+
+function isNumeric(a) {
+   if ((a >= '0') && (a <= '9')) {
+       return true;
+   }
+   return false;
+}
+
+function parse(s) {
+    var stack = [];
+    for (var i = 0; i < s.length; i++)
+         if (s.charAt(i) != ' ') {
+         if (isNumeric(s.charAt(i))) {
+             var num = 0;
+             while ((i < s.length) && (isNumeric(s.charAt(i)))) {
+                 num = num * 10 + Number(s.charAt(i));
+                 i++;
+             }
+             i--;
+             stack.push(cnst(num));
+	  } else {
+               if (s.charAt(i) == "+") {
+                   stack.push(add(stack.pop(), stack.pop()));
+               } else {
+               	   if (s.charAt(i) == '-') {
+                   	var tmp = stack.pop();
+                   	stack.push(substract(stack.pop(), tmp));
+               	   } else {
+               		if (s.charAt(i) == '*') {
+                   	    stack.push(multiply(stack.pop(), stack.pop()));
+                        } else {
+        	     	      if (s.charAt(i) == '/') {
+                  		   tmp = stack.pop();
+               		           stack.push(divide(stack.pop(), tmp));
+                              } else {
+				   if (s.charAt(i) == 'a')  {
+					stack.push(abs(stack.pop()));
+					i += 2;
+				   } else {
+				 	  if (s.charAt(i) == 'l')  {
+						stack.push(log(stack.pop()));
+						i += 2;
+				 	  } else {
+                                   	    stack.push(variable(s.charAt(i)));
+				   	  }
+                                     }
+                               }
+                        }
+                 }
+          }
+    }  
+ }
+    return stack.pop();
+}
+//println('hello');
+
+//var expr = substract(multiply(cnst(2), variable("x")), cnst(3));
+//var expr2 = parse("xx2-*x*1+");
+var test = parse("xyz++");
+//var test2 = add(cnst(3), cnst(4));
+//println(expr(5));
+println("test "+test(4,5,6));
+for (var i = 0; i <= 10; i++) {
+    println(i+" "+parse("xx*2x*-1+")(i));
+}

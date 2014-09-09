@@ -1,0 +1,8260 @@
+init () 
+ bigint() 
+clear 
+make_copy 
+push_Back 0
+init () 
+ bigint() 
+clear 
+make_copy 
+push_Back 0
+init () 
+str 4
+init () 
+ bigint() 
+clear 
+make_copy 
+push_Back 0
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+clear 
+make_copy 
+init () 
+ int 4
+clear 
+make_copy 
+push_Back 4
+init () 
+ int 10
+clear 
+make_copy 
+push_Back 10
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+ bigint() 
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+size 
+resize 2
+size 
+size 
+size 
+[] 1 
+size 
+size 
+pop_back 
+make_copy 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 0
+= 
+make_copy 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+????????????? 1 0
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+ += 4
+size 
+size 
+size 
+resize 1
+make_copy 
+????????????? 1 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+[] 0 
+size 
+[] 0 
+size 
+size 
+size 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 4
+= 
+make_copy 
+[] 0 
+size 
+ ~ 4
+clear 
+make_copy 
+????????????? 1 4
+~ 
+[] 0 
+size 
+ ~ 4
+clear 
+make_copy 
+????????????? 1 4
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 4
+clear 
+make_copy 
+~ 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 4
+= 
+make_copy 
+[] 0 
+size 
+ ~ 4
+clear 
+make_copy 
+????????????? 1 4
+~ 
+init () 
+str 5
+init () 
+ bigint() 
+clear 
+make_copy 
+push_Back 0
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+clear 
+make_copy 
+init () 
+ int 5
+clear 
+make_copy 
+push_Back 5
+init () 
+ int 10
+clear 
+make_copy 
+push_Back 10
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+ bigint() 
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+size 
+resize 2
+size 
+size 
+size 
+[] 1 
+size 
+size 
+pop_back 
+make_copy 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 0
+= 
+make_copy 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+????????????? 1 0
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+ += 5
+size 
+size 
+size 
+resize 1
+make_copy 
+????????????? 1 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+[] 0 
+size 
+[] 0 
+size 
+size 
+size 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 5
+= 
+make_copy 
+[] 0 
+size 
+ ~ 5
+clear 
+make_copy 
+????????????? 1 5
+~ 
+[] 0 
+size 
+ ~ 5
+clear 
+make_copy 
+????????????? 1 5
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 5
+clear 
+make_copy 
+~ 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 5
+= 
+make_copy 
+[] 0 
+size 
+ ~ 5
+clear 
+make_copy 
+????????????? 1 5
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+a = print str
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+init () 
+ int 10
+clear 
+make_copy 
+push_Back 10
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+ = 0
+= 
+make_copy 
+????????????? 1 4
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+ bigint() 
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+size 
+resize 3
+size 
+size 
+[] 0 
+size 
+[] 0 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+[] 0 
+size 
+size 
+size 
+size 
+size 
+[] 2 
+size 
+size 
+pop_back 
+make_copy 
+size 
+size 
+[] 1 
+size 
+size 
+pop_back 
+make_copy 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 0
+= 
+make_copy 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+????????????? 1 0
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+size 
+size 
+resize 1
+make_copy 
+????????????? 1 4
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+[] 0 
+size 
+[] 0 
+size 
+size 
+size 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 4
+= 
+make_copy 
+????????????? 1 4
+[] 0 
+size 
+ ~ 4
+clear 
+make_copy 
+????????????? 1 4
+~ 
+[] 0 
+size 
+ ~ 4
+clear 
+make_copy 
+????????????? 1 4
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+????????????? 1 0
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+????????????? 1 0
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+[] 0 
+size 
+ ~ 4
+clear 
+make_copy 
+????????????? 1 4
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+init () 
+ int 10
+clear 
+make_copy 
+push_Back 10
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+ = 0
+= 
+make_copy 
+????????????? 1 4
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 4
+clear 
+make_copy 
+~ 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+4
+b = print str
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+init () 
+ int 10
+clear 
+make_copy 
+push_Back 10
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+ = 0
+= 
+make_copy 
+????????????? 1 5
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+ bigint() 
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+size 
+resize 3
+size 
+size 
+[] 0 
+size 
+[] 0 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+[] 0 
+size 
+size 
+size 
+size 
+size 
+[] 2 
+size 
+size 
+pop_back 
+make_copy 
+size 
+size 
+[] 1 
+size 
+size 
+pop_back 
+make_copy 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 0
+= 
+make_copy 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+????????????? 1 0
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+size 
+size 
+resize 1
+make_copy 
+????????????? 1 5
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+[] 0 
+size 
+[] 0 
+size 
+size 
+size 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 5
+= 
+make_copy 
+????????????? 1 5
+[] 0 
+size 
+ ~ 5
+clear 
+make_copy 
+????????????? 1 5
+~ 
+[] 0 
+size 
+ ~ 5
+clear 
+make_copy 
+????????????? 1 5
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+????????????? 1 0
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+????????????? 1 0
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+[] 0 
+size 
+ ~ 5
+clear 
+make_copy 
+????????????? 1 5
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+init () 
+ int 10
+clear 
+make_copy 
+push_Back 10
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+ = 0
+= 
+make_copy 
+????????????? 1 5
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 5
+clear 
+make_copy 
+~ 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+5
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+ps size 0 1
+size 
+[] const 0
+ += 4
+size 
+size 
+size 
+resize 1
+make_copy 
+????????????? 1 4
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+[] 0 
+size 
+[] 0 
+size 
+size 
+size 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+a + a = print str
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+init () 
+ int 10
+clear 
+make_copy 
+push_Back 10
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+ = 0
+= 
+make_copy 
+????????????? 1 8
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+ bigint() 
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+size 
+resize 3
+size 
+size 
+[] 0 
+size 
+[] 0 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+[] 0 
+size 
+size 
+size 
+size 
+size 
+[] 2 
+size 
+size 
+pop_back 
+make_copy 
+size 
+size 
+[] 1 
+size 
+size 
+pop_back 
+make_copy 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 0
+= 
+make_copy 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+????????????? 1 0
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+size 
+size 
+resize 1
+make_copy 
+????????????? 1 8
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+[] 0 
+size 
+[] 0 
+size 
+size 
+size 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 8
+= 
+make_copy 
+????????????? 1 8
+[] 0 
+size 
+ ~ 8
+clear 
+make_copy 
+????????????? 1 8
+~ 
+[] 0 
+size 
+ ~ 8
+clear 
+make_copy 
+????????????? 1 8
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+????????????? 1 0
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+????????????? 1 0
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+[] 0 
+size 
+ ~ 8
+clear 
+make_copy 
+????????????? 1 8
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+init () 
+ int 10
+clear 
+make_copy 
+push_Back 10
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+ = 0
+= 
+make_copy 
+????????????? 1 8
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 8
+clear 
+make_copy 
+~ 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+8
+[] 0 
+size 
+ ~ 8
+clear 
+make_copy 
+????????????? 1 8
+~ 
+[] 0 
+size 
+ ~ 8
+clear 
+make_copy 
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+ps size 0 1
+size 
+[] const 0
+ += 5
+size 
+size 
+size 
+resize 1
+make_copy 
+????????????? 1 4
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+[] 0 
+size 
+[] 0 
+size 
+size 
+size 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+a + b = print str
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+init () 
+ int 10
+clear 
+make_copy 
+push_Back 10
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+ = 0
+= 
+make_copy 
+????????????? 1 9
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+ bigint() 
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+size 
+resize 3
+size 
+size 
+[] 0 
+size 
+[] 0 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+[] 0 
+size 
+size 
+size 
+size 
+size 
+[] 2 
+size 
+size 
+pop_back 
+make_copy 
+size 
+size 
+[] 1 
+size 
+size 
+pop_back 
+make_copy 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 0
+= 
+make_copy 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+????????????? 1 0
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+size 
+size 
+resize 1
+make_copy 
+????????????? 1 9
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+[] 0 
+size 
+[] 0 
+size 
+size 
+size 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 9
+= 
+make_copy 
+????????????? 1 9
+[] 0 
+size 
+ ~ 9
+clear 
+make_copy 
+????????????? 1 9
+~ 
+[] 0 
+size 
+ ~ 9
+clear 
+make_copy 
+????????????? 1 9
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+????????????? 1 0
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+????????????? 1 0
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+[] 0 
+size 
+ ~ 9
+clear 
+make_copy 
+????????????? 1 9
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+init () 
+ int 10
+clear 
+make_copy 
+push_Back 10
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+ = 0
+= 
+make_copy 
+????????????? 1 9
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 9
+clear 
+make_copy 
+~ 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+9
+[] 0 
+size 
+ ~ 9
+clear 
+make_copy 
+????????????? 1 9
+~ 
+[] 0 
+size 
+ ~ 9
+clear 
+make_copy 
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 5
+= 
+make_copy 
+????????????? 1 4
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+size 
+size 
+resize 1
+make_copy 
+????????????? 1 5
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+[] 0 
+size 
+[] 0 
+size 
+size 
+size 
+[] 0 
+size 
+ ~ 4
+clear 
+make_copy 
+????????????? 1 4
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+a - b = print str
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+init () 
+ int 10
+clear 
+make_copy 
+push_Back 10
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+ = 0
+= 
+make_copy 
+????????????? 1 1
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+ bigint() 
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+size 
+resize 3
+size 
+size 
+[] 0 
+size 
+[] 0 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+[] 0 
+size 
+size 
+size 
+size 
+size 
+[] 2 
+size 
+size 
+pop_back 
+make_copy 
+size 
+size 
+[] 1 
+size 
+size 
+pop_back 
+make_copy 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 0
+= 
+make_copy 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+????????????? 1 0
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+size 
+size 
+resize 1
+make_copy 
+????????????? 1 1
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+[] 0 
+size 
+[] 0 
+size 
+size 
+size 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 1
+= 
+make_copy 
+????????????? 1 1
+[] 0 
+size 
+ ~ 1
+clear 
+make_copy 
+????????????? 1 1
+~ 
+[] 0 
+size 
+ ~ 1
+clear 
+make_copy 
+????????????? 1 1
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+????????????? 1 0
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+????????????? 1 0
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+[] 0 
+size 
+ ~ 1
+clear 
+make_copy 
+????????????? 1 1
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+init () 
+ int 10
+clear 
+make_copy 
+push_Back 10
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+ = 0
+= 
+make_copy 
+????????????? 1 1
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 1
+clear 
+make_copy 
+~ 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+-1
+[] 0 
+size 
+ ~ 1
+clear 
+make_copy 
+????????????? 1 1
+~ 
+[] 0 
+size 
+ ~ 1
+clear 
+make_copy 
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+ bigint() 
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+size 
+resize 3
+size 
+size 
+[] 0 
+size 
+[] 0 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+[] 0 
+size 
+size 
+size 
+size 
+size 
+[] 2 
+size 
+size 
+pop_back 
+make_copy 
+size 
+size 
+[] 1 
+size 
+size 
+pop_back 
+make_copy 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 20
+= 
+make_copy 
+????????????? 1 4
+[] 0 
+size 
+ ~ 20
+clear 
+make_copy 
+????????????? 1 20
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+a * b = print str
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+init () 
+ int 10
+clear 
+make_copy 
+push_Back 10
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+[] 0 
+size 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+[] 0 
+size 
+[] 0 
+size 
+size 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 2
+= 
+make_copy 
+????????????? 1 2
+[] 0 
+size 
+ ~ 2
+clear 
+make_copy 
+????????????? 1 2
+~ 
+[] 0 
+size 
+ ~ 2
+clear 
+make_copy 
+????????????? 1 2
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+ bigint() 
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+size 
+resize 3
+size 
+size 
+[] 0 
+size 
+[] 0 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+[] 0 
+size 
+size 
+size 
+size 
+size 
+[] 2 
+size 
+size 
+pop_back 
+make_copy 
+size 
+size 
+[] 1 
+size 
+size 
+pop_back 
+make_copy 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 20
+= 
+make_copy 
+[] 0 
+size 
+ ~ 20
+clear 
+make_copy 
+????????????? 1 20
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 20
+= 
+make_copy 
+????????????? 1 2
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+size 
+size 
+resize 1
+make_copy 
+????????????? 1 20
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+[] 0 
+size 
+[] 0 
+size 
+size 
+size 
+[] 0 
+size 
+ ~ 2
+clear 
+make_copy 
+????????????? 1 2
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 18
+= 
+make_copy 
+????????????? 1 2
+[] 0 
+size 
+ ~ 18
+clear 
+make_copy 
+????????????? 1 18
+~ 
+[] 0 
+size 
+ ~ 18
+clear 
+make_copy 
+????????????? 1 18
+~ 
+[] 0 
+size 
+ ~ 20
+clear 
+make_copy 
+????????????? 1 20
+~ 
+[] 0 
+size 
+ ~ 20
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 2
+clear 
+make_copy 
+????????????? 1 2
+~ 
+[] 0 
+size 
+ ~ 2
+clear 
+make_copy 
+????????????? 1 2
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+[] 0 
+size 
+ ~ 18
+clear 
+make_copy 
+????????????? 1 18
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+init () 
+ int 10
+clear 
+make_copy 
+push_Back 10
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+ = 0
+= 
+make_copy 
+????????????? 1 2
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 18
+clear 
+make_copy 
+~ 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+B
+[] 0 
+size 
+ ~ 2
+clear 
+make_copy 
+????????????? 1 2
+~ 
+[] 0 
+size 
+ ~ 2
+clear 
+make_copy 
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+ = 0
+= 
+make_copy 
+????????????? 1 4
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 5
+clear 
+make_copy 
+????????????? 1 5
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+a / b = print str
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+????????????? 1 0
+~ 
+0
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+????????????? 1 0
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+ = 0
+= 
+make_copy 
+????????????? 1 4
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 5
+clear 
+make_copy 
+????????????? 1 5
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+ bigint() 
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+size 
+resize 3
+size 
+size 
+[] 0 
+size 
+[] 0 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+[] 0 
+size 
+size 
+size 
+size 
+size 
+[] 2 
+size 
+size 
+pop_back 
+make_copy 
+size 
+size 
+[] 1 
+size 
+size 
+pop_back 
+make_copy 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 0
+= 
+make_copy 
+????????????? 1 5
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+????????????? 1 0
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+size 
+size 
+resize 1
+make_copy 
+????????????? 1 4
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+[] 0 
+size 
+[] 0 
+size 
+size 
+size 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 4
+= 
+make_copy 
+????????????? 1 4
+[] 0 
+size 
+ ~ 4
+clear 
+make_copy 
+????????????? 1 4
+~ 
+[] 0 
+size 
+ ~ 4
+clear 
+make_copy 
+????????????? 1 4
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+????????????? 1 0
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+????????????? 1 0
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+a % b = print str
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+init () 
+ int 10
+clear 
+make_copy 
+push_Back 10
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+ = 0
+= 
+make_copy 
+????????????? 1 4
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+ bigint() 
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+size 
+resize 3
+size 
+size 
+[] 0 
+size 
+[] 0 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+[] 0 
+size 
+size 
+size 
+size 
+size 
+[] 2 
+size 
+size 
+pop_back 
+make_copy 
+size 
+size 
+[] 1 
+size 
+size 
+pop_back 
+make_copy 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 0
+= 
+make_copy 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+????????????? 1 0
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+size 
+size 
+resize 1
+make_copy 
+????????????? 1 4
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+[] 0 
+size 
+[] 0 
+size 
+size 
+size 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 4
+= 
+make_copy 
+????????????? 1 4
+[] 0 
+size 
+ ~ 4
+clear 
+make_copy 
+????????????? 1 4
+~ 
+[] 0 
+size 
+ ~ 4
+clear 
+make_copy 
+????????????? 1 4
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+????????????? 1 0
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+????????????? 1 0
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+[] 0 
+size 
+ ~ 4
+clear 
+make_copy 
+????????????? 1 4
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+init () 
+ int 10
+clear 
+make_copy 
+push_Back 10
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+ = 0
+= 
+make_copy 
+????????????? 1 4
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 4
+clear 
+make_copy 
+~ 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+4
+[] 0 
+size 
+ ~ 4
+clear 
+make_copy 
+????????????? 1 4
+~ 
+[] 0 
+size 
+ ~ 4
+clear 
+make_copy 
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+resize 1
+make_copy 
+????????????? 1 4
+size 
+size 
+size 
+resize 1
+make_copy 
+????????????? 1 5
+size 
+[] 0 
+size 
+[] 0 
+size 
+size 
+size 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 5
+= 
+make_copy 
+????????????? 1 4
+[] 0 
+size 
+ ~ 5
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 5
+clear 
+make_copy 
+????????????? 1 5
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+resize 1
+make_copy 
+????????????? 1 4
+size 
+size 
+size 
+resize 1
+make_copy 
+????????????? 1 5
+size 
+[] 0 
+size 
+[] 0 
+size 
+size 
+size 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 4
+= 
+make_copy 
+????????????? 1 4
+[] 0 
+size 
+ ~ 5
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 4
+clear 
+make_copy 
+????????????? 1 4
+~ 
+init () 
+ bigint() 
+clear 
+make_copy 
+push_Back 0
+init () 
+ int 1
+clear 
+make_copy 
+push_Back 1
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+ += 1
+size 
+size 
+size 
+resize 1
+make_copy 
+????????????? 1 4
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+[] 0 
+size 
+[] 0 
+size 
+size 
+size 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 5
+= 
+make_copy 
+[] 0 
+size 
+ ~ 5
+clear 
+make_copy 
+????????????? 1 5
+~ 
+[] 0 
+size 
+ ~ 5
+clear 
+make_copy 
+????????????? 1 5
+~ 
+[] 0 
+size 
+ ~ 1
+clear 
+make_copy 
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 5
+= 
+make_copy 
+????????????? 1 5
+[] 0 
+size 
+ ~ 5
+clear 
+make_copy 
+????????????? 1 5
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+resize 1
+make_copy 
+????????????? 1 5
+size 
+size 
+size 
+resize 1
+make_copy 
+????????????? 1 5
+init () 
+ int 1
+clear 
+make_copy 
+push_Back 1
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+[] 0 
+size 
+[] 0 
+size 
+size 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+ += 1
+size 
+size 
+size 
+resize 1
+make_copy 
+????????????? 1 1073741818
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+[] 0 
+size 
+[] 0 
+size 
+size 
+size 
+[] 0 
+size 
+ ~ 1
+clear 
+make_copy 
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 1073741819
+= 
+make_copy 
+????????????? 1 1073741818
+[] 0 
+size 
+ ~ 1073741819
+clear 
+make_copy 
+????????????? 1 1073741819
+~ 
+[] 0 
+size 
+ ~ 1073741819
+clear 
+make_copy 
+????????????? 1 1073741819
+~ 
+[] 0 
+size 
+ ~ 1073741818
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 1
+clear 
+make_copy 
+~ 
+size 
+[] 0 
+size 
+[] 0 
+size 
+size 
+size 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 1
+= 
+make_copy 
+[] 0 
+size 
+ ~ 5
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 1
+clear 
+make_copy 
+????????????? 1 1
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+ bigint() 
+clear 
+make_copy 
+push_Back 0
+init () 
+ int 1
+clear 
+make_copy 
+push_Back 1
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+ += 1
+size 
+size 
+size 
+resize 1
+make_copy 
+????????????? 1 5
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+[] 0 
+size 
+[] 0 
+size 
+size 
+size 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 6
+= 
+make_copy 
+[] 0 
+size 
+ ~ 6
+clear 
+make_copy 
+????????????? 1 6
+~ 
+[] 0 
+size 
+ ~ 6
+clear 
+make_copy 
+????????????? 1 6
+~ 
+[] 0 
+size 
+ ~ 1
+clear 
+make_copy 
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 6
+= 
+make_copy 
+????????????? 1 6
+[] 0 
+size 
+ ~ 6
+clear 
+make_copy 
+????????????? 1 6
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+resize 1
+make_copy 
+????????????? 1 4
+size 
+size 
+size 
+resize 1
+make_copy 
+????????????? 1 6
+init () 
+ int 1
+clear 
+make_copy 
+push_Back 1
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+[] 0 
+size 
+[] 0 
+size 
+size 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+ += 1
+size 
+size 
+size 
+resize 1
+make_copy 
+????????????? 1 1073741817
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+[] 0 
+size 
+[] 0 
+size 
+size 
+size 
+[] 0 
+size 
+ ~ 1
+clear 
+make_copy 
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 1073741818
+= 
+make_copy 
+????????????? 1 1073741817
+[] 0 
+size 
+ ~ 1073741818
+clear 
+make_copy 
+????????????? 1 1073741818
+~ 
+[] 0 
+size 
+ ~ 1073741818
+clear 
+make_copy 
+????????????? 1 1073741818
+~ 
+[] 0 
+size 
+ ~ 1073741817
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 1
+clear 
+make_copy 
+~ 
+size 
+[] 0 
+size 
+[] 0 
+size 
+size 
+size 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 0
+= 
+make_copy 
+????????????? 1 4
+[] 0 
+size 
+ ~ 1073741818
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+????????????? 1 0
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+resize 1
+make_copy 
+????????????? 1 0
+size 
+size 
+size 
+resize 1
+make_copy 
+????????????? 1 1
+size 
+[] 0 
+size 
+[] 0 
+size 
+size 
+size 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 1
+= 
+make_copy 
+????????????? 1 0
+[] 0 
+size 
+ ~ 1
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 1
+clear 
+make_copy 
+????????????? 1 1
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+[] 0 
+size 
+ ~ 1
+clear 
+make_copy 
+????????????? 1 1
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 6
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 1
+clear 
+make_copy 
+????????????? 1 1
+~ 
+[] 0 
+size 
+ ~ 1
+clear 
+make_copy 
+~ 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 1
+= 
+make_copy 
+????????????? 1 4
+[] 0 
+size 
+ ~ 1
+clear 
+make_copy 
+????????????? 1 1
+~ 
+size 
+[] 0 
+size 
+[] 0 
+size 
+size 
+size 
+size 
+size 
+resize 1
+make_copy 
+????????????? 1 4
+size 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+init () 
+ int 8
+clear 
+make_copy 
+push_Back 8
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+ = 0
+= 
+make_copy 
+????????????? 1 4
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 8
+clear 
+make_copy 
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+ bigint() 
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+size 
+resize 3
+size 
+size 
+[] 0 
+size 
+[] 0 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+[] 0 
+size 
+size 
+size 
+size 
+size 
+[] 2 
+size 
+size 
+pop_back 
+make_copy 
+size 
+size 
+[] 1 
+size 
+size 
+pop_back 
+make_copy 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 0
+= 
+make_copy 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+????????????? 1 0
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+size 
+size 
+resize 1
+make_copy 
+????????????? 1 4
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+[] 0 
+size 
+[] 0 
+size 
+size 
+size 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 4
+= 
+make_copy 
+????????????? 1 4
+[] 0 
+size 
+ ~ 4
+clear 
+make_copy 
+????????????? 1 4
+~ 
+[] 0 
+size 
+ ~ 4
+clear 
+make_copy 
+????????????? 1 4
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+????????????? 1 0
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+????????????? 1 0
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+[] 0 
+size 
+ ~ 4
+clear 
+make_copy 
+????????????? 1 4
+~ 
+[] 0 
+size 
+ ~ 4
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 8
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+init () 
+ int 8
+clear 
+make_copy 
+push_Back 8
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+ = 0
+= 
+make_copy 
+????????????? 1 4
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 8
+clear 
+make_copy 
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 0
+= 
+make_copy 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+????????????? 1 0
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+????????????? 1 0
+~ 
+[] 0 
+size 
+ ~ 8
+clear 
+make_copy 
+~ 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+????????????? 1 0
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+size 
+size 
+size 
+resize 1
+make_copy 
+????????????? 1 4
+size 
+[] 0 
+size 
+[] 0 
+size 
+size 
+init () 
+ int 8
+clear 
+make_copy 
+push_Back 8
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+ bigint() 
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+size 
+resize 3
+size 
+size 
+[] 0 
+size 
+[] 0 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+[] 0 
+size 
+size 
+size 
+size 
+size 
+[] 2 
+size 
+size 
+pop_back 
+make_copy 
+size 
+size 
+[] 1 
+size 
+size 
+pop_back 
+make_copy 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 32
+= 
+make_copy 
+????????????? 1 4
+[] 0 
+size 
+ ~ 32
+clear 
+make_copy 
+????????????? 1 32
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 32
+= 
+make_copy 
+[] 0 
+size 
+ ~ 32
+clear 
+make_copy 
+????????????? 1 32
+~ 
+[] 0 
+size 
+ ~ 32
+clear 
+make_copy 
+????????????? 1 32
+~ 
+[] 0 
+size 
+ ~ 8
+clear 
+make_copy 
+~ 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+[] 0 
+size 
+ ~ 32
+clear 
+make_copy 
+????????????? 1 32
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+a | b = print str
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+init () 
+ int 10
+clear 
+make_copy 
+push_Back 10
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+ = 0
+= 
+make_copy 
+????????????? 1 5
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+ bigint() 
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+size 
+resize 3
+size 
+size 
+[] 0 
+size 
+[] 0 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+[] 0 
+size 
+size 
+size 
+size 
+size 
+[] 2 
+size 
+size 
+pop_back 
+make_copy 
+size 
+size 
+[] 1 
+size 
+size 
+pop_back 
+make_copy 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 0
+= 
+make_copy 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+????????????? 1 0
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+size 
+size 
+resize 1
+make_copy 
+????????????? 1 5
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+[] 0 
+size 
+[] 0 
+size 
+size 
+size 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 5
+= 
+make_copy 
+????????????? 1 5
+[] 0 
+size 
+ ~ 5
+clear 
+make_copy 
+????????????? 1 5
+~ 
+[] 0 
+size 
+ ~ 5
+clear 
+make_copy 
+????????????? 1 5
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+????????????? 1 0
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+????????????? 1 0
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+[] 0 
+size 
+ ~ 5
+clear 
+make_copy 
+????????????? 1 5
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+init () 
+ int 10
+clear 
+make_copy 
+push_Back 10
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+ = 0
+= 
+make_copy 
+????????????? 1 5
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 5
+clear 
+make_copy 
+~ 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+5
+a & b = print str
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+init () 
+ int 10
+clear 
+make_copy 
+push_Back 10
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+ = 0
+= 
+make_copy 
+????????????? 1 4
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+ bigint() 
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+size 
+resize 3
+size 
+size 
+[] 0 
+size 
+[] 0 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+[] 0 
+size 
+size 
+size 
+size 
+size 
+[] 2 
+size 
+size 
+pop_back 
+make_copy 
+size 
+size 
+[] 1 
+size 
+size 
+pop_back 
+make_copy 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 0
+= 
+make_copy 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+????????????? 1 0
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+size 
+size 
+resize 1
+make_copy 
+????????????? 1 4
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+[] 0 
+size 
+[] 0 
+size 
+size 
+size 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 4
+= 
+make_copy 
+????????????? 1 4
+[] 0 
+size 
+ ~ 4
+clear 
+make_copy 
+????????????? 1 4
+~ 
+[] 0 
+size 
+ ~ 4
+clear 
+make_copy 
+????????????? 1 4
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+????????????? 1 0
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+????????????? 1 0
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+[] 0 
+size 
+ ~ 4
+clear 
+make_copy 
+????????????? 1 4
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+init () 
+ int 10
+clear 
+make_copy 
+push_Back 10
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+ = 0
+= 
+make_copy 
+????????????? 1 4
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 4
+clear 
+make_copy 
+~ 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+4
+a ^ b = print str
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+init () 
+ int 10
+clear 
+make_copy 
+push_Back 10
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+ = 0
+= 
+make_copy 
+????????????? 1 1
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+ bigint() 
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+size 
+resize 3
+size 
+size 
+[] 0 
+size 
+[] 0 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+[] 0 
+size 
+size 
+size 
+size 
+size 
+[] 2 
+size 
+size 
+pop_back 
+make_copy 
+size 
+size 
+[] 1 
+size 
+size 
+pop_back 
+make_copy 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 0
+= 
+make_copy 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+????????????? 1 0
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+size 
+size 
+resize 1
+make_copy 
+????????????? 1 1
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+[] 0 
+size 
+[] 0 
+size 
+size 
+size 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 1
+= 
+make_copy 
+????????????? 1 1
+[] 0 
+size 
+ ~ 1
+clear 
+make_copy 
+????????????? 1 1
+~ 
+[] 0 
+size 
+ ~ 1
+clear 
+make_copy 
+????????????? 1 1
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+????????????? 1 0
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+????????????? 1 0
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+[] 0 
+size 
+ ~ 1
+clear 
+make_copy 
+????????????? 1 1
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+init () 
+ int 10
+clear 
+make_copy 
+push_Back 10
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+ = 0
+= 
+make_copy 
+????????????? 1 1
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 1
+clear 
+make_copy 
+~ 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+1
+a >> b = print str
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+????????????? 1 0
+~ 
+0
+a << b = print str
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+init () 
+ int 10
+clear 
+make_copy 
+push_Back 10
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+[] 0 
+size 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+[] 0 
+size 
+[] 0 
+size 
+size 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 3
+= 
+make_copy 
+????????????? 1 3
+[] 0 
+size 
+ ~ 3
+clear 
+make_copy 
+????????????? 1 3
+~ 
+[] 0 
+size 
+ ~ 3
+clear 
+make_copy 
+????????????? 1 3
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+ bigint() 
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+size 
+resize 3
+size 
+size 
+[] 0 
+size 
+[] 0 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+[] 0 
+size 
+size 
+size 
+size 
+size 
+[] 2 
+size 
+size 
+pop_back 
+make_copy 
+size 
+size 
+[] 1 
+size 
+size 
+pop_back 
+make_copy 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 30
+= 
+make_copy 
+[] 0 
+size 
+ ~ 30
+clear 
+make_copy 
+????????????? 1 30
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 30
+= 
+make_copy 
+????????????? 1 3
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+size 
+size 
+resize 1
+make_copy 
+????????????? 1 30
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+[] 0 
+size 
+[] 0 
+size 
+size 
+size 
+[] 0 
+size 
+ ~ 3
+clear 
+make_copy 
+????????????? 1 3
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+ps size 0 1
+size 
+[] const 0
+ = 27
+= 
+make_copy 
+????????????? 1 3
+[] 0 
+size 
+ ~ 27
+clear 
+make_copy 
+????????????? 1 27
+~ 
+[] 0 
+size 
+ ~ 27
+clear 
+make_copy 
+????????????? 1 27
+~ 
+[] 0 
+size 
+ ~ 30
+clear 
+make_copy 
+????????????? 1 30
+~ 
+[] 0 
+size 
+ ~ 30
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 3
+clear 
+make_copy 
+????????????? 1 3
+~ 
+[] 0 
+size 
+ ~ 3
+clear 
+make_copy 
+????????????? 1 3
+~ 
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+[] 0 
+size 
+ ~ 27
+clear 
+make_copy 
+????????????? 1 27
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+init () 
+ int 10
+clear 
+make_copy 
+push_Back 10
+init () 
+clear 
+make_copy 
+= 
+make_copy 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+ = 0
+= 
+make_copy 
+????????????? 1 3
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 10
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 27
+clear 
+make_copy 
+~ 
+init () 
+ int 0
+clear 
+make_copy 
+push_Back 0
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+size 
+size 
+size 
+size 
+ps size 0 1
+size 
+[] const 0
+size 
+ps size 0 1
+size 
+[] const 0
+[] const a0
+size 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+K
+[] 0 
+size 
+ ~ 3
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 0
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 1
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 4
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 5
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 5
+clear 
+make_copy 
+~ 
+[] 0 
+size 
+ ~ 4
+clear 
+make_copy 
+~ 
