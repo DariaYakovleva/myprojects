@@ -3,37 +3,24 @@ import java.io.FileNotFoundException;
 import java.io.PrintStream;
 import java.util.*;
 
-import javafx.util.Pair;
 
-public class Homework1 extends MakeExpr{
+public class Homework1 {
 	
 	public static void main(String[] args) throws FileNotFoundException {
 
-//		System.setIn(new FileInputStream("input.txt"));
-		System.setIn(new FileInputStream("maxtest1.in"));
-		System.setOut(new PrintStream("output.txt"));
+		System.setIn(new FileInputStream("HW3/input.in"));
+//		System.setIn(new FileInputStream("HW1/good2.in"));
+		System.setOut(new PrintStream("HW3/output.out"));
+//		System.setOut(new PrintStream("output.out"));
 		Scanner in = new Scanner(System.in);
-		
-		int n = in.nextInt();
-		
-		for (int i = 0; i < n; i++) {
-			String s = in.next();
-			Expression exp = ExpressionParser.parse(s);
-			int ax = compWithAx(exp);
-			if (ax != -1) {
-				statements.add(exp);
-				System.out.println("(" + (i + 1) + ") " + s + " (Сх.акс. " + (ax + 1)
-						+ ")");
-			} else {
-				Pair<Integer, Integer> mp = modusPonens(exp);
-				if (mp != null) {
-					statements.add(exp);
-					System.out.println("(" + (i + 1) + ") " + s + " (M.P. "
-							+ (mp.getKey() + 1) + ", " + (mp.getValue() + 1) + ")");
-				} else {
-					System.out.println("(" + (i + 1) + ") " + s + " Не доказано");
-				}
-			}
+		List<Expression> exprs = new ArrayList<>();
+		while (in.hasNext()) {
+			String s = in.nextLine();
+			exprs.add(ExpressionParser.parse(s));
+		}
+		List<String> res = (new Correctness(exprs)).getStatements();
+		for (int i = 0; i < res.size(); i++) {
+			System.out.println(res.get(i));
 		}
 		in.close();
 	}

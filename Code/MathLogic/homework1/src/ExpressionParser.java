@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 
 public class ExpressionParser {
 
@@ -10,13 +13,19 @@ public class ExpressionParser {
 	private String lexem;
 	private int nextperm;
 	Expression res;
-
+	private List<String> variables = new ArrayList<String>();
+	
 	private Expression negation() {
-		// assert !good;
 		Expression a;
 		if (lexem.charAt(nextperm) >= 'A' && lexem.charAt(nextperm) <= 'Z') {
-			a = new Variable(lexem.charAt(nextperm));
-			nextperm++;
+			String val = "";
+			while ((lexem.charAt(nextperm) >= 'A' && lexem.charAt(nextperm) <= 'Z') || 
+					(lexem.charAt(nextperm) >= '1' && lexem.charAt(nextperm) <= '9')) {
+				val += lexem.charAt(nextperm);
+				nextperm++;
+			}
+			a = new Variable(val);
+			if (!variables.contains(val)) variables.add(val);
 		}  else if (lexem.charAt(nextperm) == OPEN) {
 			nextperm++;
 			a = expr();
@@ -30,7 +39,6 @@ public class ExpressionParser {
 		return a;
 	}
 	private Expression conjunction() {
-		// assert !good;
 		Expression a = negation();
 		while (lexem.charAt(nextperm) == AND) {
 			nextperm++;
@@ -40,7 +48,6 @@ public class ExpressionParser {
 	}
 	
 	private Expression disjunction() {
-		// assert !good;
 		Expression a = conjunction();
 		while (lexem.charAt(nextperm) == OR) {
 			nextperm++;
@@ -58,14 +65,18 @@ public class ExpressionParser {
 		return a;
 	}
 
-	private ExpressionParser(String a) {
+	ExpressionParser(String a) {
 		nextperm = 0;
 		lexem = a.replaceAll("\\s", "").concat(".");
 		res = expr();
 	}
+	
+	public List<String> getVariables() {
+		return variables;
+	}
 
 	public static Expression parse(String a) {
-		return new ExpressionParser(a).res;
+		return (new ExpressionParser(a)).res;
 	}
 
 }
