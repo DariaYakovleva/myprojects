@@ -9,7 +9,12 @@ public class Const implements Expression {
 	Expression e1;
 	boolean zero;
 	public Const(int a) {
-		if (a == 0) zero = true;
+		if (a == 0) {
+			zero = true;
+			e1 = null;
+		} else {
+			System.out.println("problem Const");
+		}
 	}
 	
 	public Const(Expression e1) {

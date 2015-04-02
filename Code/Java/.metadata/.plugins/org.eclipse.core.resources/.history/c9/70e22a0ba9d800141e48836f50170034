@@ -1,0 +1,60 @@
+package lesson6_ParallelMapperImpl;
+
+import java.util.LinkedList;
+
+public class ThreadsQueue {
+	int cntThreads;
+	PoolWorker[] threads;
+	LinkedList<Runnable> queue;
+	
+	public ThreadsQueue(int cntThreads) {
+		this.cntThreads = cntThreads;
+		threads = new PoolWorker[cntThreads];
+		queue = new LinkedList<>();
+		System.err.println("TQ");
+		for (int i = 0; i < cntThreads; i++) {
+			threads[i] = new PoolWorker();
+			threads[i].run();
+		}
+		System.err.println("RUN ALL");
+	}
+	
+	public void applyMap(Runnable r) {
+		synchronized (queue) {
+			queue.addLast(r);
+			queue.notifyAll();
+		}
+	}
+	public void stopAll() {
+		for (int i = 0; i < cntThreads; i++) {
+			threads[i].stopT();
+		}
+	}
+	
+	private class PoolWorker extends Thread {
+		private volatile boolean stopThread = false;
+		public void run() {
+			Runnable r;
+			while (!stopThread) {
+				System.err.println("1");
+				synchronized (queue) {
+					System.err.println("2");
+					while (queue.isEmpty()) {
+						try {
+							System.err.println("3");
+							queue.wait();
+							System.err.println("4");
+						} catch (InterruptedException e) {
+						} 
+					}
+					System.err.println("5");
+					r = (Runnable) queue.removeFirst();
+				}
+				r.run();
+			}
+		}
+		public void stopT() {
+			stopThread = true;
+		}
+	}
+}

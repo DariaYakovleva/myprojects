@@ -18,6 +18,7 @@ public class Correctness extends MakeExpr{
 	
 	int compWithHyp(Expression exp) {
 		for (int i = 0; i < hyp.size(); i++) {
+			System.out.println("i="+i);
 			if (equalT(hyp.get(i), exp)) return i;
 		}
 		return -1;

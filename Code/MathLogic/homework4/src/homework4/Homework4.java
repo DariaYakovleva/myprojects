@@ -11,7 +11,7 @@ public class Homework4 {
 	public static void main(String[] args) throws FileNotFoundException {
 
 //		System.setIn(new FileInputStream("input.txt"));
-		System.setIn(new FileInputStream("HW4/incorrect10.in"));
+		System.setIn(new FileInputStream("HW4/correct13.in"));
 		Scanner in = new Scanner(System.in);
 		System.setOut(new PrintStream("HW4/output.out"));
 		String state = in.nextLine();

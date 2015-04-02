@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.NoSuchMethodException"/>
+<fullyQualifiedTypeName name="java.nio.file.Paths"/>
+<fullyQualifiedTypeName name="info.kgeorgiy.java.advanced.implementor.ImplerException"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="IterativeParallelism"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="lesson6_ParallelMapperImpl.ThreadsQueue.PoolWorker"/>
+<fullyQualifiedTypeName name="lesson6_ParallelMapperImpl.ThreadsQueue"/>
+<fullyQualifiedTypeName name="java.lang.Iterable"/>
+<fullyQualifiedTypeName name="lesson6_ParallelMapperImpl.IterativeParallelism"/>
+<fullyQualifiedTypeName name="info.kgeorgiy.java.advanced.mapper.ParallelMapper"/>
+<fullyQualifiedTypeName name="lesson6_ParallelMapperImpl.ParallelMapperImpl"/>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
+</qualifiedTypeNameHistroy>
