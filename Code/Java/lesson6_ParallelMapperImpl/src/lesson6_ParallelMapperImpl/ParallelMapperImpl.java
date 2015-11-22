@@ -8,30 +8,66 @@ import java.util.function.Function;
 import info.kgeorgiy.java.advanced.mapper.ParallelMapper;
 
 public class ParallelMapperImpl implements ParallelMapper {
-
+	/**
+	 * @version 2.0
+	 */
+	
+	/**
+	 * Queue of threads
+	 */
 	private ThreadsQueue myThreadPool;
+	
+	/**
+	 * Constructor create new ThreadPool with cntThreads threads
+	 * @param cntThreads is count of thread
+	 */
 	public ParallelMapperImpl(int cntThreads) {
 		myThreadPool = new ThreadsQueue(cntThreads);
 	}
-
+	/**
+	 * Method close of threads
+	 */
 	@Override
 	public void close() throws InterruptedException {
 		myThreadPool.stopAll();
 	}
 
 	public class Counter {
+		/**
+		 * Size of list
+		 */
 		int count;
+		
+		/**
+		 * Constructor create new Counter
+		 * @param count is count of list
+		 */
 		Counter(int count) {
 			this.count = count;
 		}
+		
+		/**
+		 * Decrease count
+		 */
 		void dec() {
 			count--;
 		}
+		/**
+		 * Check count is zero
+		 * @return true if count is zero and false otherwise
+		 */
 		boolean isZero() {
 			return count == 0;
 		}
 	}
-
+	
+	/**
+	 * Function apply current function to each element in list
+	 * @param funct is current function
+	 * @param list is list of first values
+	 * @throws InterruptedException if one of threads is interrupted
+	 * @return list is result applied function to each element
+	 */
 	@Override
 	public <T, R> List<R> map(Function<? super T, ? extends R> funct, List<? extends T> list) throws InterruptedException {
 		List<R> results = new ArrayList<>();

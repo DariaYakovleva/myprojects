@@ -16,7 +16,7 @@ public class ExpressionParser {
 	private final char EXISTS = '?';
 
 	private String lexem;
-	private int nextperm;
+	int nextperm;
 	Expression res;
 	private List<String> variables = new ArrayList<String>();
 
@@ -66,7 +66,7 @@ public class ExpressionParser {
 		Expression a = multiplier();
 		while (lexem.charAt(nextperm) == MUL) {
 			nextperm++;
-			a = new Product(a, multiplier());
+			a = new Multiplier(a, multiplier());
 		}
 		return a;
 	}
@@ -75,7 +75,7 @@ public class ExpressionParser {
 		Expression a = summand();
 		while (lexem.charAt(nextperm) == PLUS) {
 			nextperm++;
-			a = new Addition(a, summand());
+			a = new Summand(a, summand());
 		}
 		return a;
 	}
@@ -103,6 +103,9 @@ public class ExpressionParser {
 		} else {
 			val = "=";
 			terms.add(term());
+			if (lexem.charAt(nextperm) != '=') {
+				return null;
+			}
 			nextperm++;
 			terms.add(term());
 		}
@@ -127,9 +130,14 @@ public class ExpressionParser {
 	private Expression negation() {
 		Expression a;
 		if (lexem.charAt(nextperm) == OPEN) {
-			nextperm++;
-			a = expr();
-			nextperm++;
+			int step = nextperm;
+			a = predicate();
+			if (a == null) {
+				nextperm = step;
+				nextperm++;
+				a = expr();
+				nextperm++;
+			}
 		} else if (lexem.charAt(nextperm) == NOT) {
 			nextperm++;
 			a = new Not(negation());
@@ -163,7 +171,7 @@ public class ExpressionParser {
 
 	private Expression expr() {
 		Expression a = disjunction();
-		if (lexem.charAt(nextperm) == IMP) {
+		while (lexem.charAt(nextperm) == IMP) {
 			nextperm += 2;
 			a = new Implication(a, expr());
 		}

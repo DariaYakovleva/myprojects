@@ -17,25 +17,31 @@ public class Deduction extends MakeExpr {
 	public void hyParser(String s) {
 		int pos = 0;
 		s = s.replaceAll("\\s", "");
-		while (!s.substring(pos, pos + 2).equals("|-")) {
-			String exp = "";
-			while (s.charAt(pos) != ',' && !s.substring(pos, pos + 2).equals("|-")) {
-				exp += s.charAt(pos);
-				pos++;
-			}
-			if (exp.isEmpty()) {
-				alpha = null;
-				break;
-			}
-			if (s.charAt(pos) == ',') {
-				hypothesis.add(ExpressionParser.parse(exp));
-				pos++;
-			} else {
-				alpha = ExpressionParser.parse(exp);
-			}
-			exprs.add(ExpressionParser.parse(exp));
+		if (!s.contains("|-")) {
+			alpha = null;
+			state = null;
+			return;
 		}
-		state = ExpressionParser.parse(s.substring(pos + 2));
+		s = s.replaceAll("\\|-", "\\$");
+		while (s.charAt(pos) != '$') {
+//			if (exp.isEmpty()) {
+//				alpha = null;
+//				break;
+//			}
+			ExpressionParser EP = new ExpressionParser(s);
+			Expression a = EP.res;
+			s = s.substring(EP.nextperm);
+			pos = 0;
+			if (s.charAt(pos) == ',') {
+				hypothesis.add(a);
+				s = s.substring(1);
+				pos = 0;
+			} else {
+				alpha = a;
+			}
+			exprs.add(a);
+		}
+		state = ExpressionParser.parse(s.substring(pos + 1));
 	}
 
 	public int compWithHyp(Expression a) {
@@ -62,13 +68,13 @@ public class Deduction extends MakeExpr {
 			} else if (equalT(alpha, exp)) {
 				statements.addAll(aToA(alpha));
 			} else {
-				List<Integer> mp = modusPonens(exp, exprs);
+				List<Integer> mp = modusPonens(i, exp, exprs);
 				if (mp != null) {
 					Expression gj;
 					if (exprs.get(mp.get(0)).equalTree(new Implication(exprs.get(mp.get(1)), exp))) {
-						gj = exprs.get(mp.get(0));
-					} else {
 						gj = exprs.get(mp.get(1));
+					} else {
+						gj = exprs.get(mp.get(0));
 					}
 					//(A -> gj) -> ((A -> (gj -> gi)) -> (A -> gi))
 					Expression tmp = new Implication(new Implication(alpha, new Implication(gj, exp)), new Implication(alpha, exp));
@@ -87,8 +93,7 @@ public class Deduction extends MakeExpr {
 						try {
 							BufferedReader in = new BufferedReader(new FileReader("deduction/forall.txt"));
 							String tmp = "";
-							while (in.ready()) {
-								tmp = in.readLine();
+							while ((tmp = in.readLine()) != null) {
 								tmp = tmp.replaceAll("A", "QQ99");
 								tmp = tmp.replaceAll("B", "WW88");
 								tmp = tmp.replaceAll("C", "XX77");
@@ -151,13 +156,13 @@ public class Deduction extends MakeExpr {
 		hyParser(s);
 		exprs.addAll(pr);
 	}
-	
+
 	public Expression getAlpha() {
 		return alpha;
 	}
 
 	public List<Expression> getHyp() {
-		return exprs;
+		return hypothesis;
 	}
 	public List<Expression> getDeduction() {
 		makeDeduction();

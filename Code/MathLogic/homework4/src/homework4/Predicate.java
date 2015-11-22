@@ -63,7 +63,6 @@ public class Predicate implements Expression {
 			eq &= e1.get(i).almostEqualTree(c.e1.get(i), list);
 		}
 		return val.equals(c.val) && eq;
-
 	} 
 	
 	public boolean freeEntry(Variable xx) {

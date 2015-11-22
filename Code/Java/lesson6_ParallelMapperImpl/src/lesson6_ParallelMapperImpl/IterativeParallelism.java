@@ -8,6 +8,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.function.Function;
 import java.util.function.Predicate;
+import java.util.stream.Collectors;
 
 
 public class IterativeParallelism implements ListIP {
@@ -21,6 +22,18 @@ public class IterativeParallelism implements ListIP {
 	 * Constructor create empty IterativeParallelism object
 	 */
 	public IterativeParallelism() {
+	}
+
+	private <E>List<List<E>> getList(int cntThreads, List<E> list) {
+		List<List<E>> tmpList = new ArrayList<>();
+		int lenSublist = (list.size() + cntThreads - 1) / cntThreads;
+		for (int i = 0; i < cntThreads; i++) {
+			if (lenSublist * i < list.size()) {
+				final List<E> sl = list.subList(lenSublist * i,  Integer.min(lenSublist * (i + 1), list.size()));
+				tmpList.add(sl);
+			}
+		}
+		return tmpList;
 	}
 
 	public IterativeParallelism(ParallelMapper pm) {
@@ -37,7 +50,7 @@ public class IterativeParallelism implements ListIP {
 	 */
 	@Override
 	public <E> E minimum(int cntThreads, List<? extends E> list, Comparator<? super E> comparator) throws InterruptedException {
-//		System.err.println("minimum");
+		//		System.err.println("minimum");
 		Function<List<? extends E>, E> getMinim = new Function<List<? extends E>, E>(){
 			@Override
 			public E apply(List<? extends E> t) {
@@ -54,15 +67,7 @@ public class IterativeParallelism implements ListIP {
 				return minim;
 			}};
 			List<E> ans = new ArrayList<>();
-			int lenSublist = (list.size() + cntThreads - 1) / cntThreads;
-			for (int i = 0; i < cntThreads; i++) {
-				if (lenSublist * i < list.size()) {
-					final List<? extends E> sl = list.subList(lenSublist * i,  Integer.min(lenSublist * (i + 1), list.size()));
-					List<List<? extends E>> tmpList = new ArrayList<>();
-					tmpList.add(sl);
-					ans.addAll(ThreadPool.map(getMinim, tmpList));
-				}
-			}
+			ans.addAll(ThreadPool.map(getMinim, getList(cntThreads, list)));
 			return getMinim.apply(ans);
 	}
 
@@ -77,7 +82,7 @@ public class IterativeParallelism implements ListIP {
 	 */
 	@Override
 	public <E> E maximum(int cntThreads, List<? extends E> list, Comparator<? super E> comparator) throws InterruptedException {
-//		System.err.println("maximum");
+		//		System.err.println("maximum");
 		Function<List<? extends E>, E> getMaxim = new Function<List<? extends E>, E>(){
 			@Override
 			public E apply(List<? extends E> t) {
@@ -94,15 +99,7 @@ public class IterativeParallelism implements ListIP {
 				return maxim;
 			}};
 			List<E> ans = new ArrayList<>();
-			int lenSublist = (list.size() + cntThreads - 1) / cntThreads;
-			for (int i = 0; i < cntThreads; i++) {
-				if (lenSublist * i < list.size()) {
-					final List<? extends E> sl = list.subList(lenSublist * i,  Integer.min(lenSublist * (i + 1), list.size()));
-					List<List<? extends E>> tmpList = new ArrayList<>();
-					tmpList.add(sl);
-					ans.addAll(ThreadPool.map(getMaxim, tmpList));
-				}
-			}
+			ans.addAll(ThreadPool.map(getMaxim, getList(cntThreads, list)));
 			return getMaxim.apply(ans);
 	}
 
@@ -117,7 +114,7 @@ public class IterativeParallelism implements ListIP {
 	 */
 	@Override
 	public <E> boolean all(int cntThreads, List<? extends E> list, Predicate<? super E> predicate) throws InterruptedException {
-//		System.err.println("all");
+		//		System.err.println("all");
 		Function<List<? extends E>, Integer> checkPred = new Function<List<? extends E>, Integer>(){
 			@Override
 			public Integer apply(List<? extends E> t) {
@@ -132,15 +129,7 @@ public class IterativeParallelism implements ListIP {
 				return new Integer(0);
 			}};
 			List<Integer> ans = new ArrayList<>();
-			int lenSublist = (list.size() + cntThreads - 1) / cntThreads;
-			for (int i = 0; i < cntThreads; i++) {
-				if (lenSublist * i < list.size()) {
-					final List<? extends E> sl = list.subList(lenSublist * i,  Integer.min(lenSublist * (i + 1), list.size()));
-					List<List<? extends E>> tmpList = new ArrayList<>();
-					tmpList.add(sl);
-					ans.addAll(ThreadPool.map(checkPred, tmpList));
-				}
-			}
+			ans.addAll(ThreadPool.map(checkPred, getList(cntThreads, list)));
 			for (Integer elem : ans) {
 				if (elem.intValue() == 0) 
 					return false;
@@ -159,7 +148,7 @@ public class IterativeParallelism implements ListIP {
 	 */
 	@Override	
 	public <E> boolean any(int cntThreads, List<? extends E> list, Predicate<? super E> predicate) throws InterruptedException {
-//		System.err.println("any");
+		//		System.err.println("any");
 		Function<List<? extends E>, Integer> checkPred = new Function<List<? extends E>, Integer>(){
 			@Override
 			public Integer apply(List<? extends E> t) {
@@ -174,15 +163,7 @@ public class IterativeParallelism implements ListIP {
 				return new Integer(0);
 			}};
 			List<Integer> ans = new ArrayList<>();
-			int lenSublist = (list.size() + cntThreads - 1) / cntThreads;
-			for (int i = 0; i < cntThreads; i++) {
-				if (lenSublist * i < list.size()) {
-					final List<? extends E> sl = list.subList(lenSublist * i,  Integer.min(lenSublist * (i + 1), list.size()));
-					List<List<? extends E>> tmpList = new ArrayList<>();
-					tmpList.add(sl);
-					ans.addAll(ThreadPool.map(checkPred, tmpList));
-				}
-			}
+			ans.addAll(ThreadPool.map(checkPred, getList(cntThreads, list)));
 			for (Integer elem : ans) {
 				if (elem.intValue() == 1) 
 					return true;
@@ -202,7 +183,7 @@ public class IterativeParallelism implements ListIP {
 	 */
 	@Override
 	public <E> List<E> filter(int cntThreads, List<? extends E> list, Predicate<? super E> predicate) throws InterruptedException {
-//		System.err.println("filter");
+		//		System.err.println("filter");
 		Function<List<? extends E>, List<E>> checkPred = new Function<List<? extends E>, List<E>>(){
 			@Override
 			public List<E> apply(List<? extends E> t) {
@@ -216,15 +197,7 @@ public class IterativeParallelism implements ListIP {
 				return res;
 			}};
 			List<List<E>> ans2 = new ArrayList<>();
-			int lenSublist = (list.size() + cntThreads - 1) / cntThreads;
-			for (int i = 0; i < cntThreads; i++) {
-				if (lenSublist * i < list.size()) {
-					final List<? extends E> sl = list.subList(lenSublist * i,  Integer.min(lenSublist * (i + 1), list.size()));
-					List<List<? extends E>> tmpList = new ArrayList<>();
-					tmpList.add(sl);
-					ans2.addAll(ThreadPool.map(checkPred, tmpList));
-				}
-			}
+			ans2.addAll(ThreadPool.map(checkPred, getList(cntThreads, list)));
 			List<E> ans = new ArrayList<>();
 			for (List<E> elem : ans2) {
 				ans.addAll(elem);
@@ -244,16 +217,23 @@ public class IterativeParallelism implements ListIP {
 	 */
 	@Override
 	public <E, U> List<U> map(int cntThreads, List<? extends E> list, Function<? super E, ? extends U> function) throws InterruptedException {
-//		System.err.println("map");
-		List<U> result = new ArrayList<>();
-		int lenSublist = (list.size() + cntThreads - 1) / cntThreads;
-		for (int i = 0; i < cntThreads; i++) {
-			if (lenSublist * i < list.size()) {
-				final List<? extends E> sl = list.subList(lenSublist * i,  Integer.min(lenSublist * (i + 1), list.size()));
-				result.addAll(ThreadPool.map(function, sl));
-			}
+		//		System.err.println("map");
+		Function<List<? extends E>, List<U>> appl = new Function<List<? extends E>, List<U>>(){
+			@Override
+			public List<U> apply(List<? extends E> t) {
+				if (t == null) return null;
+				List<U> res = new ArrayList<U>();
+				for (int i = 0; i < t.size(); i++) {
+					res.add(function.apply(t.get(i)));
+				}
+				return res;
+			}};
+		List<List<U>> ans = ThreadPool.map(appl, getList(cntThreads, list));
+		List<U> ans2 = new ArrayList<>();
+		for (List<U> elem : ans) {
+			ans2.addAll(elem);
 		}
-		return result;
+		return ans2;
 
 	}
 
@@ -267,7 +247,7 @@ public class IterativeParallelism implements ListIP {
 	 */
 	@Override
 	public String concat(int cntThreads, List<?> list) throws InterruptedException {
-//		System.err.println("concat");
+		//		System.err.println("concat");
 		Function<List<?>, String> toStr = new Function<List<?>, String>(){
 			@Override
 			public String apply(List<?> t) {
@@ -279,15 +259,7 @@ public class IterativeParallelism implements ListIP {
 				return res;
 			}};
 			List<String> ans = new ArrayList<>();
-			int lenSublist = (list.size() + cntThreads - 1) / cntThreads;
-			for (int i = 0; i < cntThreads; i++) {
-				if (lenSublist * i < list.size()) {
-					final List<?> sl = list.subList(lenSublist * i,  Integer.min(lenSublist * (i + 1), list.size()));
-					List<List<?>> tmpList = new ArrayList<>();
-					tmpList.add(sl);
-					ans.addAll(ThreadPool.map(toStr, tmpList));
-				}
-			}
+			ans.addAll(ThreadPool.map(toStr, getList(cntThreads, list)));
 			String result = new String();
 			for (String elem : ans) {
 				result = result.concat(elem);

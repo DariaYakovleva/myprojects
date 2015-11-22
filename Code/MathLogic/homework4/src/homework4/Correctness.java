@@ -7,10 +7,16 @@ import java.util.List;
 
 public class Correctness extends MakeExpr{
 	public Correctness(List<Expression> s, List<Expression> hyp, Expression alpha) {
-		statements = hyp;
+		statements = new ArrayList<Expression>(hyp);
+		if (alpha != null) {
+			statements.add(alpha);
+		}
 		statements.addAll(s);
 		this.alpha1 = alpha;
-		this.hyp = hyp;
+		this.hyp = new ArrayList<Expression>(hyp);
+		if (alpha != null) {
+			this.hyp.add(alpha);
+		}
 	}
 	List<String> errors = new ArrayList<>();
 	List<String> proof = new ArrayList<>();
@@ -18,7 +24,6 @@ public class Correctness extends MakeExpr{
 	
 	int compWithHyp(Expression exp) {
 		for (int i = 0; i < hyp.size(); i++) {
-			System.out.println("i="+i);
 			if (equalT(hyp.get(i), exp)) return i;
 		}
 		return -1;
@@ -27,6 +32,7 @@ public class Correctness extends MakeExpr{
 	boolean goCheck() {
 		for (int i = 0; i < statements.size(); i++) {
 			Expression exp = statements.get(i);
+//			System.out.println("i="+i+" " + exp.printExp());
 			int ax = compWithAx(exp);
 			int hx = compWithHyp(exp);
 			if (ax != -1 || hx != -1) {
@@ -36,7 +42,7 @@ public class Correctness extends MakeExpr{
 					proof.add("(" + (i + 1) + ") " + exp.printExp() + " (hyp)");
 				}
 			} else {
-				List<Integer> mp = modusPonens(exp, statements);
+				List<Integer> mp = modusPonens(i, exp, statements);
 				if (mp != null) {
 					proof.add("(" + (i + 1) + ") " + exp.printExp() + " (M.P. "
 							+ (mp.get(0) + 1) + ", " + (mp.get(1) + 1) + ")");
@@ -51,7 +57,7 @@ public class Correctness extends MakeExpr{
 						} else {
 							statements.set(i, null);
 							proof.add("(" + (i + 1) + ") " + exp.printExp() + " Не доказано");
-							errors.add("Вывод некорректен начиная с форумулы номер " + (i + 1));
+							errors.add("Вывод некорректен начиная с формулы номер " + (i + 1));
 							if (!curError.isEmpty()) {
 								errors.add(": " + curError);
 								curError = "";

@@ -61,6 +61,8 @@ public class Quant implements Expression {
 		}
 		return new Quant(quant, x, e1);
 	}
+	
+	
 	public Map<String, Expression> getVariables(Expression b) {
 		Map<String, Expression> res = new HashMap<>();
 		if (!(b instanceof Quant))

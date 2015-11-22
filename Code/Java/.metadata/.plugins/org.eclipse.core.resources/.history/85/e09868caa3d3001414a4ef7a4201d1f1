@@ -1,6 +1,0 @@
-package lesson6_ParallelMapperImpl;
-
-public class ThreadsQueue {
-	int cntThreads;
-	
-}

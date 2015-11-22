@@ -9,7 +9,7 @@ public class MakeExpr {
 	public static final String[] AXIOMS = { "A->(B->A)",
 		"(A->B)->((A->B->C)->(A->C))", "A&B->A", "A&B->B", "A->(B->(A&B))",
 		"A->(A|B)", "B->(A|B)", "(A->C)->((B->C)->((A|B)->C))",
-		"(A->B)->((A->!B)->!A)", "@xF(x)->F(a), F(a)->?xF(x)",
+		"(A->B)->((A->!B)->!A)", "!!A ->A", "@xF(x)->F(a), F(a)->?xF(x)",
 		"a=b->a'=b'", "a=b->a=c->b=c", "a'=b'->a=b", "!a'=0", "a+b'=(a+b)'", "a+0=a",
 		"a*0=0", "a*b'=a*b+a" };
 	//, "F(x=0)&@x(F->F(x=x'))->F"
@@ -86,6 +86,21 @@ public class MakeExpr {
 				return i;
 			}
 		}
+		// F(0)&@x(F(x)->F(x'))->F(x)
+		if (a instanceof Implication) {
+			Expression left = ((Implication) a).e1;
+			Expression F = ((Implication) a).e2;
+			if (left instanceof And) {
+				Expression right = ((And) left).e2;
+				if (right instanceof Quant) {
+					Variable x = (Variable)(((Quant) right).x);
+					Expression axiom9 = new Implication(new And(F.replaceVar(x, new Const(0)),
+							new Quant(Quant.FORALL, x, new Implication(F, F.replaceVar(x, new Const(x))))), F);
+					if (a.equalTree(axiom9)) return 99;
+				}
+			}
+		}
+		//@xF(x)->F(x = y)
 		if (a instanceof Implication) {
 			Implication b = (Implication)a;
 			if (b.leftArg() instanceof Quant) {
@@ -93,10 +108,10 @@ public class MakeExpr {
 				if (q.getQuant() == Quant.FORALL) {
 					Expression arg2 = b.rightArg();
 					Variable var = q.getVar(); 
-					if (alpha1 != null && alpha1.freeEntry(var)) {
-						if (curError.isEmpty()) curError = "используется правило с квантором по переменной " + var.printExp() +
-								"входящей свободно в допущение " + alpha1.printExp();
-					} else {
+//					if (alpha1 != null && alpha1.freeEntry(var)) {
+//						if (curError.isEmpty()) curError = "используется правило с квантором по переменной " + var.printExp() +
+//								" входящей свободно в допущение " + alpha1.printExp();
+//					} else {
 						Expression arg1 = q.getExpr();
 						Expression arg12 = arg1.replaceVar(var, new Variable("QQ99"));
 						if (almostEqualT(arg12, arg2)) {
@@ -123,16 +138,17 @@ public class MakeExpr {
 						}
 					}
 				}
-			}
+//			}
+			//F(x = y)->?xF(x)
 			if (b.rightArg() instanceof Quant) {
 				Quant q = (Quant)b.rightArg();
 				if (q.getQuant() == Quant.EXISTS) {
 					Expression arg2 = b.leftArg();
 					Variable var = q.getVar(); 
-					if (alpha1 != null && alpha1.freeEntry(var)) {
-						if (curError.isEmpty()) curError = "используется правило с квантором по переменной " + var.printExp() +
-								"входящей свободно в допущение " + alpha1.printExp();
-					} else {
+//					if (alpha1 != null && alpha1.freeEntry(var)) {
+//						if (curError.isEmpty()) curError = "используется правило с квантором по переменной " + var.printExp() +
+//								" входящей свободно в допущение " + alpha1.printExp();
+//					} else {
 						Expression arg1 = q.getExpr();
 						Expression arg12 = arg1.replaceVar(var, new Variable("QQ99"));
 						if (almostEqualT(arg12, arg2)) {
@@ -161,18 +177,18 @@ public class MakeExpr {
 				}
 			}
 
-		}
+//		}
 		return -1;
 	}
 
-	public List<Integer> modusPonens(Expression a, List<Expression> expr) {
+	public List<Integer> modusPonens(int pos, Expression a, List<Expression> expr) {
 		if (a == null)
 			return null;
-		for (int i = 0; i < expr.size(); i++) {
+		for (int i = 0; i < pos; i++) {
 			Expression cur = expr.get(i);
 			if (cur instanceof Implication) {
 				if (equalT(((Implication) cur).rightArg(), a)) {
-					for (int j = 0; j < expr.size(); j++) {
+					for (int j = 0; j < pos; j++) {
 						if (equalT(((Implication) cur).leftArg(), expr.get(j))) {
 							List<Integer> pair = new ArrayList<>();
 							pair.add(j);
@@ -196,11 +212,11 @@ public class MakeExpr {
 			return -1;
 		if (!(((Quant)st.rightArg()).getQuant() == Quant.FORALL)) 
 			return -1;
-		if (alpha1 != null && alpha1 != null && alpha1.freeEntry(((Quant)st.rightArg()).getVar())) {
-			if (curError.isEmpty()) curError = "используется правило с квантором по переменной " + ((Quant)st.rightArg()).getVar().printExp() +
-					" входящей свободно в допущение " + alpha1.printExp();
-			return -1;
-		}
+//		if (alpha1 != null && alpha1 != null && alpha1.freeEntry(((Quant)st.rightArg()).getVar())) {
+//			if (curError.isEmpty()) curError = "используется правило с квантором по переменной " + ((Quant)st.rightArg()).getVar().printExp() +
+//					" входящей свободно в допущение " + alpha1.printExp();
+//			return -1;
+//		}
 		Expression rightArg = ((Quant)st.rightArg()).getExpr();
 		if (st.leftArg().freeEntry(((Quant)st.rightArg()).getVar())) {
 			if (curError.isEmpty()) curError = "переменная " + ((Quant)st.rightArg()).getVar().printExp() + " входит свободно в формулу " + st.leftArg().printExp();
@@ -226,11 +242,11 @@ public class MakeExpr {
 			return -1;
 		if (!(((Quant)st.leftArg()).getQuant() == Quant.EXISTS)) 
 			return -1;
-		if (alpha1 != null && alpha1.freeEntry(((Quant)st.leftArg()).getVar())) {
-			if (curError.isEmpty()) curError = "используется правило с квантором по переменной " + ((Quant)st.leftArg()).getVar().printExp() +
-					" входящей свободно в допущение " + alpha1.printExp();
-			return -1;
-		}
+//		if (alpha1 != null && alpha1.freeEntry(((Quant)st.leftArg()).getVar())) {
+//			if (curError.isEmpty()) curError = "используется правило с квантором по переменной " + ((Quant)st.leftArg()).getVar().printExp() +
+//					" входящей свободно в допущение " + alpha1.printExp();
+//			return -1;
+//		}
 		Expression leftArg = ((Quant)st.leftArg()).getExpr();
 		if (st.rightArg().freeEntry(((Quant)st.leftArg()).getVar())) {
 			if (curError.isEmpty()) curError = "переменная " + ((Quant)st.leftArg()).getVar().printExp() + " входит свободно в формулу " + st.rightArg().printExp();

@@ -10,12 +10,16 @@ import java.util.Scanner;
 public class Homework4 {
 	public static void main(String[] args) throws FileNotFoundException {
 
-//		System.setIn(new FileInputStream("input.txt"));
-		System.setIn(new FileInputStream("HW4/correct13.in"));
+//		System.setIn(new FileInputStream("HW4/correct.in"));
+		System.setIn(new FileInputStream("HW4/hw4.in"));
+//		System.setIn(new FileInputStream("HW4/correct11.in"));  
 		Scanner in = new Scanner(System.in);
 		System.setOut(new PrintStream("HW4/output.out"));
 		String state = in.nextLine();
 		List<Expression> exprs = new ArrayList<>();
+		if (!state.contains("|-")) {
+			exprs.add(ExpressionParser.parse(state));
+		}
 		while (in.hasNext()) {
 			String s = in.nextLine();
 			exprs.add(ExpressionParser.parse(s));
@@ -36,6 +40,10 @@ public class Homework4 {
 			for (int i = 0; i < errs.size(); i++) {
 				System.out.print(errs.get(i));
 			}
+		}
+		List<String> proof = correct.getStatements();
+		for (int i = 0; i < proof.size(); i++) {
+			System.err.println(proof.get(i));
 		}
 
 		for (int i = 0; i < res.size(); i++) {

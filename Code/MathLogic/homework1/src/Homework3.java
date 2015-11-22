@@ -59,7 +59,7 @@ public class Homework3 extends MakeExpr {
 	public static void main(String[] args) throws IOException {
 
 //		System.setIn(new FileInputStream("input.txt"));
-		System.setIn(new FileInputStream("HW3/false2.in"));
+		System.setIn(new FileInputStream("HW3/true6.in"));
 		System.setOut(new PrintStream("HW3/input.in"));
 //		System.setOut(new PrintStream("output.txt"));
 		Scanner in = new Scanner(System.in);

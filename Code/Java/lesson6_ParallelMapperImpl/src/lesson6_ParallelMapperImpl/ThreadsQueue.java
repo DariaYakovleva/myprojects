@@ -3,11 +3,31 @@ package lesson6_ParallelMapperImpl;
 import java.util.LinkedList;
 
 public class ThreadsQueue {
+	
+	/**
+	 * Count of threads
+	 */
 	int cntThreads;
+	
+	/**
+	 * Array of threads
+	 */
 	PoolWorker[] threads;
+	
+	/**
+	 * Queue of threads
+	 */
 	LinkedList<Runnable> queue;
+	
+	/**
+	 * Show needs in stop all threads
+	 */
 	private volatile boolean stopThread = false;
 	
+	/**
+	 * Constructor is create ThreadQueue and starts all thread
+	 * @param cntThreads is count of threads
+	 */
 	public ThreadsQueue(int cntThreads) {
 		this.cntThreads = cntThreads;
 		threads = new PoolWorker[cntThreads];
@@ -18,12 +38,20 @@ public class ThreadsQueue {
 		}
 	}
 	
-	public void applyMap(Runnable r) {
+	/**
+	 * Function add new Runnable in queue
+	 * @param runnab is runnable
+	 */
+	public void applyMap(Runnable runnab) {
 		synchronized (queue) {
-			queue.addLast(r);
+			queue.addLast(runnab);
 			queue.notify();
 		}
 	}
+	
+	/**
+	 * Function stops all threads
+	 */
 	public void stopAll() {
 		stopThread = true;
 		for (int i = 0; i < cntThreads; i++) {
@@ -39,6 +67,9 @@ public class ThreadsQueue {
 	}
 	
 	private class PoolWorker extends Thread {
+		/**
+		 * Function run current thread
+		 */
 		public void run() {
 			Runnable r = null;
 			while (!stopThread) {
