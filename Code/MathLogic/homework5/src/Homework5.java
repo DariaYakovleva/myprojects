@@ -13,7 +13,7 @@ public class Homework5 {
     public static void main(String[] args) throws IOException {
 
 //		System.setIn(new FileInputStream("input.txt"));
-        System.setIn(new FileInputStream("HW5/false4.in"));
+        System.setIn(new FileInputStream("HW5/input.in"));
 		System.setOut(new PrintStream("HW5/output.txt"));
         Scanner in = new Scanner(System.in);
         String s = in.nextLine();
@@ -21,13 +21,15 @@ public class Homework5 {
         Expression exp = myParser.res;
         System.err.println(exp.printExp());
         Tree kripke = exp.buildTree(false, new Tree(), new HashSet<Expression>() );
-        if (kripke == null || !exp.checkTree(kripke)) {
+        if (kripke != null) {
+            System.err.println(kripke.printTree(1));
+            System.err.println(exp.checkTree(kripke));
+        }
+        if (kripke == null || exp.checkTree(kripke)) {
             System.out.println("Formula obsheznachima");
             System.err.println("Formula obsheznachima");
         } else {
-            System.err.println(exp.checkTree(kripke));
-            System.out.println(kripke.printTree());
-            System.err.println(kripke.printTree());
+            System.out.println(kripke.printTree(1));
         }
         in.close();
     }

@@ -88,7 +88,18 @@ bool isZero(plane x, plane y) {
     return (x.a * yy.x + x.b * yy.y + x.c) <= 0;
 }
 
-
+bool isInf(plane x, plane y) {
+    if (!(x.vect(y) == 0 && x.scalar(y) < 0)) return false;
+    point yy;
+    if (y.a == 0) {
+        yy.x = 0.0;
+        yy.y = -y.c / (double)y.b;
+    } else {
+        yy.x = -y.c / (double)y.a;
+        yy.y = 0.0;
+    }
+    return x.a * yy.x + x.b * yy.y + x.c > 0;
+}
 
 bool used[N];
 int intersection() {

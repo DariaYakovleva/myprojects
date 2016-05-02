@@ -1,0 +1,42 @@
+start: s
+accept: ac
+reject: rj
+blank: _
+s 0 -> fr 2 >
+s 1 -> fr 3 >
+fr 0 -> fr 0 >
+fr 1 -> fr 1 >
+fr _ -> chr _ <
+fr 2 -> chr 2 <
+fr 3 -> chr 3 <
+chr 0 -> fl 2 <
+chr 1 -> fl 3 <
+chr 2 -> rj 2 ^
+chr 3 -> rj 3 ^
+fl 0 -> fl 0 <
+fl 1 -> fl 1 <
+fl 2 -> chl 2 >
+fl 3 -> chl 3 >
+chl 0 -> fr 2 >
+chl 1 -> fr 3 >
+chl 2 -> fl2 4 <
+chl 3 -> fl3 4 <
+fl2 3 -> fl2 3 <
+fl2 2 -> fl2 2 <
+fl2 _ -> chl2 _ >
+fl2 4 -> fl2 4 <
+chl2 2 -> frp4 _ >
+chl2 3 -> rj 3 ^
+fl3 3 -> fl3 3 <
+fl3 2 -> fl3 2 <
+fl3 4 -> fl3 4 <
+fl3 _ -> chl3 _ >
+chl3 3 -> frp4 _ >
+chl3 2 -> rj 2 ^
+frp4 3 -> frp4 3 >
+frp4 2 -> frp4 2 >
+frp4 4 -> fr4 4 >
+fr4 4 -> fr4 4 >
+fr4 _ -> ac _ ^
+fr4 3 -> fl3 4 <
+fr4 2 -> fl2 4 <

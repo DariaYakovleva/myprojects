@@ -18,7 +18,8 @@ public class Quant implements Expression {
 	}
 
 	public String printExp() {
-		return "(" + quant + x.printExp() + e1.printExp() + ")";
+//		return "(" + quant + x.printExp() + e1.printExp() + ")";
+		return "(" + quant + x.printExp() + "(" + e1.printExp() + "))";
 	}
 
 	public boolean equalTree(Expression b) {

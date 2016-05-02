@@ -31,18 +31,24 @@ public class Tree {
         return children.size();
     }
 
-    public String printTree() {
-        String res = "( ";
+    public String printTree(int num) {
+        String res = num + "( ";
         for (String v: variables) {
             res += v + " ";
         }
-        res += ")";
+        res += ")\n";
+        String spaces = "";
+        int tmp = num;
+        while (tmp != 0) {
+            spaces += "    ";
+            tmp /= 10;
+        }
         if (!children.isEmpty()) {
-            res += "={";
+            int num2 = 1;
             for (Tree t : children) {
-                res += t.printTree();
+                res += spaces + t.printTree(num * 10 + num2);
+                num2++;
             }
-            res += "} ";
         }
         return res;
     }

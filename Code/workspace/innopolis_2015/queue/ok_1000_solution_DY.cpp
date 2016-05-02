@@ -21,10 +21,10 @@ long long go() {
 			int open = i - close;
 			dp[i][j] = 0;
 			if (j > 0 && open <= n) {
-				dp[i][j] += dp[i - 1][j - 1];
+				dp[i][j] = (dp[i][j] + dp[i - 1][j - 1]) % MOD;
 			}
 			if (j + 9 <= n + m && close <= m) {
-				dp[i][j] += dp[i - 1][j + 9];
+				dp[i][j] = (dp[i][j] + dp[i - 1][j + 9]) % MOD;
 			}
 		}
 	}
@@ -36,7 +36,7 @@ long long go() {
 //	}
 	long long res = 0;
 	for (int i = 0; i <= n; i++) {
-		res += dp[n + m][i];
+		res = (res + dp[n + m][i]) % MOD;
 	}
 	return res;
 }
@@ -45,6 +45,5 @@ int main() {
 	freopen("ticket-office.in", "r", stdin);
 	freopen("ticket-office.out", "w", stdout);
 	cin >> n >> m;
-	cout << go() << endl;
-	
+	cout << go() << endl;	
 }

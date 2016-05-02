@@ -4,12 +4,12 @@ using namespace std;
 const int N = 11;
 
 int n;
-int nn = 10;
-double alpha = 0.5;
+int nn;
+double alpha = 0.7;
 double b = 100000.0;
-vector<double> p[N];
-vector<double> q[N];
-double res[N];
+vector<double> p[N * N];
+vector<double> q[N * N];
+double res[N * N];
 
 vector<double> crossover(const vector<double>& p, const vector<double>& d) {
 	vector<double> res;
@@ -79,7 +79,8 @@ double get_value(const vector<double>& v) {
 void init() {
 	for (int i = 0; i < nn; i++) {
 		for (int j = 0; j < n; j++) {
-			p[i].push_back(i);
+			double x = ((double) rand() / (double)RAND_MAX) * 20 - 10.0;
+			p[i].push_back(x);
 		}
 		res[i] = get_value(p[i]);
 		b = min(b, res[i]);
@@ -90,9 +91,10 @@ void init() {
 int main() {
 	srand(time(0));
 	cin >> n;
+	nn = 8 * n;
 	string s;
 	getline(cin, s);
-	cout.precision(10);
+	cout.precision(11);
 	init();
 	while (true) {
 		for (int i = 0; i < nn; i++) q[i].clear();

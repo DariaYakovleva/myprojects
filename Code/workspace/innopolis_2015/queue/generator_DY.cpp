@@ -23,7 +23,6 @@ int main(int argc, char* argv[]) {
 	registerGen(argc, argv);
 	int max_n = atoi(argv[2]);
 	int max_m = atoi(argv[3]);
-//    freopen("teleports.in", "w", stdout);
     n = rnd.next(0, max_n);
     m = rnd.next(0, max_m);
     cout << n << " " << m << endl;

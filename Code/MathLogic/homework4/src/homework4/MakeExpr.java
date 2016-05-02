@@ -108,10 +108,10 @@ public class MakeExpr {
 				if (q.getQuant() == Quant.FORALL) {
 					Expression arg2 = b.rightArg();
 					Variable var = q.getVar(); 
-//					if (alpha1 != null && alpha1.freeEntry(var)) {
-//						if (curError.isEmpty()) curError = "используется правило с квантором по переменной " + var.printExp() +
-//								" входящей свободно в допущение " + alpha1.printExp();
-//					} else {
+					if (alpha1 != null && alpha1.freeEntry(var)) {
+						if (curError.isEmpty()) curError = "используется правило с квантором по переменной " + var.printExp() +
+								" входящей свободно в допущение " + alpha1.printExp();
+					} else {
 						Expression arg1 = q.getExpr();
 						Expression arg12 = arg1.replaceVar(var, new Variable("QQ99"));
 						if (almostEqualT(arg12, arg2)) {
@@ -125,6 +125,7 @@ public class MakeExpr {
 							}
 							if (ok) {
 								Expression replace = comp.get("QQ99");
+								if (replace == null) return 10;
 								Set<String> vars = replace.getVariables(replace).keySet(); 
 								if (!arg12.haveBoundEntry(new Variable("QQ99"), vars, new ArrayList<>())) {
 									Expression arg13 = arg12.replaceVar(new Variable("QQ99"), replace);
@@ -138,17 +139,17 @@ public class MakeExpr {
 						}
 					}
 				}
-//			}
+			}
 			//F(x = y)->?xF(x)
 			if (b.rightArg() instanceof Quant) {
 				Quant q = (Quant)b.rightArg();
 				if (q.getQuant() == Quant.EXISTS) {
 					Expression arg2 = b.leftArg();
 					Variable var = q.getVar(); 
-//					if (alpha1 != null && alpha1.freeEntry(var)) {
-//						if (curError.isEmpty()) curError = "используется правило с квантором по переменной " + var.printExp() +
-//								" входящей свободно в допущение " + alpha1.printExp();
-//					} else {
+					if (alpha1 != null && alpha1.freeEntry(var)) {
+						if (curError.isEmpty()) curError = "используется правило с квантором по переменной " + var.printExp() +
+								" входящей свободно в допущение " + alpha1.printExp();
+					} else {
 						Expression arg1 = q.getExpr();
 						Expression arg12 = arg1.replaceVar(var, new Variable("QQ99"));
 						if (almostEqualT(arg12, arg2)) {
@@ -162,6 +163,7 @@ public class MakeExpr {
 							}
 							if (ok) {
 								Expression replace = comp.get("QQ99");
+								if (replace == null) return 11;
 								Set<String> vars = replace.getVariables(replace).keySet();
 								if (!arg12.haveBoundEntry(new Variable("QQ99"), vars, new ArrayList<>())) {
 									Expression arg13 = arg12.replaceVar(new Variable("QQ99"), replace);
@@ -177,7 +179,7 @@ public class MakeExpr {
 				}
 			}
 
-//		}
+		}
 		return -1;
 	}
 
@@ -212,11 +214,11 @@ public class MakeExpr {
 			return -1;
 		if (!(((Quant)st.rightArg()).getQuant() == Quant.FORALL)) 
 			return -1;
-//		if (alpha1 != null && alpha1 != null && alpha1.freeEntry(((Quant)st.rightArg()).getVar())) {
-//			if (curError.isEmpty()) curError = "используется правило с квантором по переменной " + ((Quant)st.rightArg()).getVar().printExp() +
-//					" входящей свободно в допущение " + alpha1.printExp();
-//			return -1;
-//		}
+		if (alpha1 != null && alpha1.freeEntry(((Quant)st.rightArg()).getVar())) {
+			if (curError.isEmpty()) curError = "используется правило с квантором по переменной " + ((Quant)st.rightArg()).getVar().printExp() +
+					" входящей свободно в допущение " + alpha1.printExp();
+			return -1;
+		}
 		Expression rightArg = ((Quant)st.rightArg()).getExpr();
 		if (st.leftArg().freeEntry(((Quant)st.rightArg()).getVar())) {
 			if (curError.isEmpty()) curError = "переменная " + ((Quant)st.rightArg()).getVar().printExp() + " входит свободно в формулу " + st.leftArg().printExp();
@@ -242,11 +244,11 @@ public class MakeExpr {
 			return -1;
 		if (!(((Quant)st.leftArg()).getQuant() == Quant.EXISTS)) 
 			return -1;
-//		if (alpha1 != null && alpha1.freeEntry(((Quant)st.leftArg()).getVar())) {
-//			if (curError.isEmpty()) curError = "используется правило с квантором по переменной " + ((Quant)st.leftArg()).getVar().printExp() +
-//					" входящей свободно в допущение " + alpha1.printExp();
-//			return -1;
-//		}
+		if (alpha1 != null && alpha1.freeEntry(((Quant)st.leftArg()).getVar())) {
+			if (curError.isEmpty()) curError = "используется правило с квантором по переменной " + ((Quant)st.leftArg()).getVar().printExp() +
+					" входящей свободно в допущение " + alpha1.printExp();
+			return -1;
+		}
 		Expression leftArg = ((Quant)st.leftArg()).getExpr();
 		if (st.rightArg().freeEntry(((Quant)st.leftArg()).getVar())) {
 			if (curError.isEmpty()) curError = "переменная " + ((Quant)st.leftArg()).getVar().printExp() + " входит свободно в формулу " + st.rightArg().printExp();

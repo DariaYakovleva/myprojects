@@ -21,7 +21,7 @@ public class LambdaParser {
 		if (lexem.charAt(nextperm) >= 'a' && lexem.charAt(nextperm) <= 'z') {
 			String val = "";
 			while ((lexem.charAt(nextperm) >= 'a' && lexem.charAt(nextperm) <= 'z') || 
-					(lexem.charAt(nextperm) >= '1' && lexem.charAt(nextperm) <= '9') 
+					(lexem.charAt(nextperm) >= '0' && lexem.charAt(nextperm) <= '9')
 				|| (lexem.charAt(nextperm) == QUOTE)){
 				val += lexem.charAt(nextperm);
 				nextperm++;
@@ -61,6 +61,7 @@ public class LambdaParser {
 			if (a == null) return b;
 			a = new Application(a, b);
 		}
+		if (a == null) System.err.println("a = NULL, cur = " + lexem.charAt(nextperm) + ", num = " + nextperm);
 		return a;
 	}
 

@@ -22,26 +22,28 @@ public class Deduction extends MakeExpr {
 			state = null;
 			return;
 		}
-		s = s.replaceAll("\\|-", "\\$");
-		while (s.charAt(pos) != '$') {
-//			if (exp.isEmpty()) {
-//				alpha = null;
-//				break;
-//			}
-			ExpressionParser EP = new ExpressionParser(s);
-			Expression a = EP.res;
-			s = s.substring(EP.nextperm);
-			pos = 0;
-			if (s.charAt(pos) == ',') {
-				hypothesis.add(a);
-				s = s.substring(1);
-				pos = 0;
-			} else {
-				alpha = a;
+		int balance = 0;
+		while (!s.substring(pos, pos + 2).equals("|-")) {
+			String exp = "";
+			while ((s.charAt(pos) != ',' || balance > 0) && !s.substring(pos, pos + 2).equals("|-")) {
+				exp += s.charAt(pos);
+				if (s.charAt(pos) == '(') balance++;
+				if (s.charAt(pos) == ')') balance--;
+				pos++;
 			}
-			exprs.add(a);
+			if (exp.isEmpty()) {
+				alpha = null;
+				break;
+			}
+			if (s.charAt(pos) == ',') {
+				hypothesis.add(ExpressionParser.parse(exp));
+				pos++;
+			} else {
+				alpha = ExpressionParser.parse(exp);
+			}
+			exprs.add(ExpressionParser.parse(exp));
 		}
-		state = ExpressionParser.parse(s.substring(pos + 1));
+		state = ExpressionParser.parse(s.substring(pos + 2));
 	}
 
 	public int compWithHyp(Expression a) {
@@ -55,6 +57,7 @@ public class Deduction extends MakeExpr {
 
 	public void makeDeduction() {
 		for (int i = 0; i < exprs.size(); i++) {
+//			System.err.println(i);
 			Expression exp = exprs.get(i);
 			int ax = compWithAx(exp);
 			int hyp = compWithHyp(exp);

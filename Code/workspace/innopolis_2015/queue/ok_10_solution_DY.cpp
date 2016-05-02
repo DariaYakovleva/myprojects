@@ -39,8 +39,8 @@ void go(int pos) {
 }
 
 int main() {
-	freopen("ticket-office.in", "r", stdin);
-	freopen("ticket-office.out", "w", stdout);
+//	freopen("ticket-office.in", "r", stdin);
+//	freopen("ticket-office.out", "w", stdout);
 	cin >> n >> m;
 	go(0);
 	cout << res << endl;
